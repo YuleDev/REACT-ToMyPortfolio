@@ -1,31 +1,43 @@
 import React from 'react';
 
 function Navigation(props) {
-    // props go here?
 
     return (
-        <header className='flex-row'>
-            <h3>
-                <a id='logoRedirect' href='/'>Kole Ervine</a>
-            </h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Kole Ervine</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <nav>
-                <ul className='flex-row'>
-                    <li>
-                        <a onClick={() => {props.changeFunction('About')}}>About me</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" onClick={() => { props.changeFunction('About') }}>About me<span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a onClick={() => {props.changeFunction('Projects')}}>Projects</a>
+                    <li class="nav-item">
+                        <a class="nav-link" onClick={() => {props.changeFunction('Projects')}}>Projects<span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a onClick={() => {props.changeFunction('Biography')}}>Biography</a>
+                    <li class="nav-item">
+                        <a class="nav-link" onClick={() => {props.changeFunction('Biography')}}>Biography<span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a onClick={() => {props.changeFunction('Contact')}}>Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" onClick={() => {props.changeFunction('Contact')}}>Contact<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact Links
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/bullmoosedev/">LinkedIn <i class="bi bi-linkedin"></i></a>
+                            <a class="dropdown-item" href="https://github.com/BullMooseDev">Github <i class="bi bi-github"></i></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href='mailto:koleervine@gmail.com'>Email me! <i class="bi bi-envelope"></i> <i class="bi bi-arrow-right"></i> <i class="bi bi-mailbox"></i></a>
+                        </div>
                     </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+        </nav>
     );
 };
 
