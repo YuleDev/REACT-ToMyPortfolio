@@ -2,11 +2,9 @@ import './App.css';
 import { useState } from 'react';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import Home from './components/Home';
 import Projects from './components/Projects';
-import Biography from './components/Biography';
+import Resume from './components/Resume';
 import About from './components/About';
-import Contact from './components/Contact';
 
 function App() {
 
@@ -14,15 +12,13 @@ function App() {
 
   const renderSection = ()=> {
     if(page === 'Home'){
-      return <Home />
+      return <About />
     }else if (page === 'Projects'){
       return <Projects />
-    } else if (page === 'Biography') {
-      return <Biography />
+    } else if (page === 'Resume') {
+      return <Resume />
     } else if (page === 'About') {
       return <About />
-    } else if (page === 'Contact') {
-      return <Contact />
     }
   };
 

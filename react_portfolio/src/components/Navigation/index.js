@@ -18,10 +18,7 @@ function Navigation(props) {
                         <a class="nav-link" onClick={() => {props.changeFunction('Projects')}}>Projects<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onClick={() => {props.changeFunction('Biography')}}>Biography<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" onClick={() => {props.changeFunction('Contact')}}>Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" onClick={() => {props.changeFunction('Resume')}}>Resume<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item dropdown">
