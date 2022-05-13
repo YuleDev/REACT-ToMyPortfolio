@@ -1,4 +1,5 @@
 import React from 'react';
+import pdfResume from '../../assets/koleResume.pdf';
 
 function Resume() {
     return (
@@ -11,7 +12,7 @@ function Resume() {
                         <nav class="nav nav-masthead justify-content-center">
                             <a class="nav-link active" href="https://www.linkedin.com/in/bullmoosedev/">Linkedin <i class="bi bi-linkedin"></i></a>
                             <a class="nav-link" href="https://github.com/BullMooseDev">Github <i class="bi bi-github"></i></a>
-                            <a class="nav-link" href="#">Download Resume <i class="bi bi-file-earmark-pdf-fill"></i></a>
+                            <a class="nav-link" href={pdfResume} download>Download Resume <i class="bi bi-file-earmark-pdf-fill"></i></a>
                         </nav>
                     </div>
                 </header>
