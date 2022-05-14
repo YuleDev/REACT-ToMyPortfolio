@@ -2,7 +2,7 @@ import React from 'react';
 import aboutImage from '../../assets/DoomWallpaper.jpg';
 
 function Projects() {
-    return (
+  return (
     <section>
       <section class="jumbotron text-center">
         <div class="container">
@@ -15,18 +15,18 @@ function Projects() {
         </div>
       </section>
 
-      <div class="album py-5 bg-light">
+      <div class="d-flex flex-wrap album py-5 bg-light">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4">
+          <div class="flex-row flex-wrap">
+            <div class="col-md-4" flex-wrap>
               <div class="card mb-4 box-shadow">
                 <img src={aboutImage} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
                 <div class="card-body">
                   <p class="card-text">This is the title and description of a project.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <a href="link to github pages"><button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                      <a href='link to project application'><button type="button" class="btn btn-sm btn-outline-secondary">View App</button></a>
+                      <a href="link to github code page"><button type="button" class="btn btn-sm btn-outline-secondary">View Code</button></a>
                     </div>
                   </div>
                 </div>
@@ -35,8 +35,8 @@ function Projects() {
           </div>
         </div>
       </div>
-      </section>
-    );
+    </section>
+  );
 };
 
 export default Projects;
