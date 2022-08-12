@@ -15,9 +15,9 @@ function App() {
       return <About />
     }else if (page === 'Projects'){
       return <Projects />
-    } else if (page === 'Resume') {
+    } /* else if (page === 'Resume') {
       return <Resume />
-    } else if (page === 'About') {
+    } */ else if (page === 'About') {
       return <About />
     }
   };

@@ -1,4 +1,5 @@
 import React from 'react';
+import pdfResume from '../../assets/koleResume.pdf';
 
 function Navigation(props) {
 
@@ -17,9 +18,9 @@ function Navigation(props) {
                     <li class="nav-item">
                         <a class="nav-link" onClick={() => {props.changeFunction('Projects')}}>Projects<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                         <a class="nav-link" onClick={() => {props.changeFunction('Resume')}}>Resume<span class="sr-only">(current)</span></a>
-                    </li>
+                    </li> */}
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,6 +31,7 @@ function Navigation(props) {
                             <a class="dropdown-item" href="https://github.com/BullMooseDev">Github <i class="bi bi-github"></i></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href='mailto:koleervine@gmail.com'>Email me! <i class="bi bi-envelope"></i> <i class="bi bi-arrow-right"></i> <i class="bi bi-mailbox"></i></a>
+                            <a class="nav-link" href={pdfResume} download>Download Resume <i class="bi bi-file-earmark-pdf-fill"></i></a>
                         </div>
                     </li>
                 </ul>
