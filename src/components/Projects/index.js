@@ -1,5 +1,8 @@
 import React from 'react';
 import aboutImage from '../../assets/DoomWallpaper.jpg';
+import CyptoCheckerIMG from '../../assets/cryptocheckerimg.png';
+import copyCatGamesIMG from '../../assets/copyCatGames.png';
+import myBudgetIMG from '../../assets/myBudget.jpg';
 
 function Projects() {
   return (
@@ -20,13 +23,13 @@ function Projects() {
         
           <div class="col-4">
             <div class="card mb-4 box-shadow">
-              <img src={aboutImage} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
+              <img src={CyptoCheckerIMG} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
               <div class="card-body">
-                <p class="card-text">This is the title and description of a project.</p>
+                <p class="card-text">This is the Crypto Checker! It allows one to see Crypto prices!</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href='link to project application'><button type="button" class="btn btn-sm btn-outline-secondary">View App</button></a>
-                    <a href="link to github code page"><button type="button" class="btn btn-sm btn-outline-secondary">View Code</button></a>
+                    <a href='https://bullmoosedev.github.io/Crypto-Checker/'><button type="button" class="btn btn-sm btn-outline-secondary">View App</button></a>
+                    <a href="https://github.com/BullMooseDev/Crypto-Checker"><button type="button" class="btn btn-sm btn-outline-secondary">View Code</button></a>
                   </div>
                 </div>
               </div>
@@ -35,13 +38,13 @@ function Projects() {
 
         <div class="col-4">
           <div class="card mb-4 box-shadow">
-            <img src={aboutImage} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
+            <img src={copyCatGamesIMG} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
             <div class="card-body">
-              <p class="card-text">This is the title and description of a project.</p>
+              <p class="card-text">This is Copy Cat Games! A game sales and blog website!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href='link to project application'><button type="button" class="btn btn-sm btn-outline-secondary">View App</button></a>
-                  <a href="link to github code page"><button type="button" class="btn btn-sm btn-outline-secondary">View Code</button></a>
+                  <a href='https://morning-spire-87893.herokuapp.com/'><button type="button" class="btn btn-sm btn-outline-secondary">View App</button></a>
+                  <a href="https://github.com/JohnKnee3/Copy-Cat-Games"><button type="button" class="btn btn-sm btn-outline-secondary">View Code</button></a>
                 </div>
               </div>
             </div>
@@ -50,13 +53,13 @@ function Projects() {
 
         <div class="col-4">
           <div class="card mb-4 box-shadow">
-            <img src={aboutImage} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
+            <img src={myBudgetIMG} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
             <div class="card-body">
-              <p class="card-text">This is the title and description of a project.</p>
+              <p class="card-text">This is myBudget, a finance tracker app.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href='link to project application'><button type="button" class="btn btn-sm btn-outline-secondary">View App</button></a>
-                  <a href="link to github code page"><button type="button" class="btn btn-sm btn-outline-secondary">View Code</button></a>
+                  <a href='https://amir-mybudget.herokuapp.com/'><button type="button" class="btn btn-sm btn-outline-secondary">View App</button></a>
+                  <a href="https://github.com/AShariat/my-budget"><button type="button" class="btn btn-sm btn-outline-secondary">View Code</button></a>
                 </div>
               </div>
             </div>
