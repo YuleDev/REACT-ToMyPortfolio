@@ -72,4 +72,6 @@ function Projects() {
   );
 };
 
+/* fix up css for project images */
+
 export default Projects;
