@@ -24,7 +24,7 @@ function About() {
           <h1 class="display-3">Hello World!</h1>
           <p>My name is Kole Ervine, I'm an avid outdoorsman, learner and extrovert. I work on elucidating the problems that go unnoticed, forging insights on otherwise veiled obstacles and creating unparalleled solutions to issues both small and great alike. Amazing code starts with amazing minds, and I wish to be among them whilst working to create the best experience one can have when browsing and exploring the web! 
 
-When I'm not at my desk writing stupefying code or working with other formidable web-engineers, I can be found out and about in the breath-taking wild. When I'm out in the world, I'm either among the awe-inspiring beauty of nature or amongst the magnificent literature that has helped form the minds of those who became pinnacles of achievement in our combined histories.</p>
+          When I'm not at my desk writing stupefying code or working with other formidable web-engineers, I can be found out and about in the breath-taking wild. When I'm out in the world, I'm either among the awe-inspiring beauty of nature or amongst the magnificent literature that has helped form the minds of those who became pinnacles of achievement in our combined histories.</p>
           <p><a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/bullmoosedev/" target="_blank" rel="noopener noreferrer" role="button">Learn more »</a></p>
         </div>
       </div>

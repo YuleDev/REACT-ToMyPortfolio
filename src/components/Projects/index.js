@@ -7,7 +7,7 @@ import myBudgetIMG from '../../assets/myBudget.jpg';
 function Projects() {
   return (
     <section>
-      <section class="jumbotron text-center">
+      <div class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">Koles Projects</h1>
           <p class="lead text-muted">This is a brief display of some of the projects I have worked on over the course of my coding bootcamp. I have added my own personal touch to all of these and wanted to learn the most I could about their respective technologies. If youre interested in seeing more please visit my github, where you can see all of my current and past projects!</p>
@@ -16,12 +16,12 @@ function Projects() {
             <a href="https://github.com/BullMooseDev" class="btn btn-secondary my-2">Github <i class="bi bi-github"></i></a>
           </p>
         </div>
-      </section>
+      </div>
 
-      <section class="d-flex flex-wrap album py-5 bg-light">
-      <div class="container row">
-        
-          <div class="col-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Crypto-Checker</h2>
             <div class="card mb-4 box-shadow">
               <img src={CyptoCheckerIMG} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
               <div class="card-body">
@@ -35,8 +35,8 @@ function Projects() {
               </div>
             </div>
           </div>
-
-        <div class="col-4">
+          <div class="col-md-4">
+            <h2>Copy Cat Games</h2>
           <div class="card mb-4 box-shadow">
             <img src={copyCatGamesIMG} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
             <div class="card-body">
@@ -50,8 +50,8 @@ function Projects() {
             </div>
           </div>
         </div>
-
-        <div class="col-4">
+        <div class="col-md-4">
+          <h2>My Budget</h2>
           <div class="card mb-4 box-shadow">
             <img src={myBudgetIMG} class="card-img-top" alt="Thumbnail of project image[100%x225]" />
             <div class="card-body">
@@ -65,13 +65,12 @@ function Projects() {
             </div>
           </div>
         </div>
-        
+        </div>
       </div>
-      </section>
+
     </section>
   );
 };
 
-/* fix up css for project images */
 
 export default Projects;
