@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/REACT-ToMyPortfolio/static/css/main.073c9b0a.css",
-    "main.js": "/REACT-ToMyPortfolio/static/js/main.80e00227.js",
+    "main.js": "/REACT-ToMyPortfolio/static/js/main.8b45793b.js",
     "static/js/787.a2cb61a6.chunk.js": "/REACT-ToMyPortfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/DoomWallpaper.jpg": "/REACT-ToMyPortfolio/static/media/DoomWallpaper.a9449fc1c5050509816f.jpg",
     "static/media/copyCatGames.png": "/REACT-ToMyPortfolio/static/media/copyCatGames.14c8a714ac98e4109cdf.png",
@@ -10,11 +10,11 @@
     "static/media/myBudget.jpg": "/REACT-ToMyPortfolio/static/media/myBudget.77c9f8578cc89a20c9f3.jpg",
     "index.html": "/REACT-ToMyPortfolio/index.html",
     "main.073c9b0a.css.map": "/REACT-ToMyPortfolio/static/css/main.073c9b0a.css.map",
-    "main.80e00227.js.map": "/REACT-ToMyPortfolio/static/js/main.80e00227.js.map",
+    "main.8b45793b.js.map": "/REACT-ToMyPortfolio/static/js/main.8b45793b.js.map",
     "787.a2cb61a6.chunk.js.map": "/REACT-ToMyPortfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.80e00227.js"
+    "static/js/main.8b45793b.js"
   ]
 }
