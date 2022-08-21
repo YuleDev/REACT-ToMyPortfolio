@@ -36,4 +36,6 @@ function About() {
   )
 };
 
+/* new problem where dropdown for the contact links causes the whole page to shift to the right */
+
 export default About;
