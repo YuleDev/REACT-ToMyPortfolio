@@ -31,7 +31,7 @@ function Navigation(props) {
                             <a class="dropdown-item" href="https://github.com/BullMooseDev">Github <i class="bi bi-github"></i></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href='mailto:koleervine@gmail.com'>Email me! <i class="bi bi-envelope"></i> <i class="bi bi-arrow-right"></i> <i class="bi bi-mailbox"></i></a>
-                            <a class="nav-link" href={pdfResume} download>Download Resume <i class="bi bi-file-earmark-pdf-fill"></i></a>
+                            <a class="dropdown-item" href={pdfResume} download>Download Resume <i class="bi bi-file-earmark-pdf-fill"></i></a>
                         </div>
                     </li>
                 </ul>
