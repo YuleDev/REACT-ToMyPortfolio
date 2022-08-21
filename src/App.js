@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div>
-      <Navigation changeFunction={changePage}></Navigation>
+      <Navigation changeFunction={changePage} />
       {renderSection()}
       <Footer />
     </div>

@@ -6,7 +6,7 @@ import myBudgetIMG from '../../assets/myBudget.jpg';
 
 function Projects() {
   return (
-    <section>
+    <section class='footerFix'>
       <div class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">Koles Projects</h1>
