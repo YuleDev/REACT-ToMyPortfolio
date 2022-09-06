@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/REACT-ToMyPortfolio/static/css/main.736508cf.css",
-    "main.js": "/REACT-ToMyPortfolio/static/js/main.76f1325d.js",
+    "main.js": "/REACT-ToMyPortfolio/static/js/main.3def29e5.js",
     "static/js/787.a2cb61a6.chunk.js": "/REACT-ToMyPortfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/DoomWallpaper.jpg": "/REACT-ToMyPortfolio/static/media/DoomWallpaper.a9449fc1c5050509816f.jpg",
     "static/media/copyCatGames.png": "/REACT-ToMyPortfolio/static/media/copyCatGames.14c8a714ac98e4109cdf.png",
     "static/media/cryptocheckerimg.png": "/REACT-ToMyPortfolio/static/media/cryptocheckerimg.1cba826baf046b5b22e3.png",
-    "static/media/koleResume.pdf": "/REACT-ToMyPortfolio/static/media/koleResume.fd24d746283928a8b995.pdf",
     "static/media/myBudget.jpg": "/REACT-ToMyPortfolio/static/media/myBudget.77c9f8578cc89a20c9f3.jpg",
+    "static/media/KoleErvineResume.pdf": "/REACT-ToMyPortfolio/static/media/KoleErvineResume.607a4307de53ae2364bc.pdf",
     "index.html": "/REACT-ToMyPortfolio/index.html",
     "main.736508cf.css.map": "/REACT-ToMyPortfolio/static/css/main.736508cf.css.map",
-    "main.76f1325d.js.map": "/REACT-ToMyPortfolio/static/js/main.76f1325d.js.map",
+    "main.3def29e5.js.map": "/REACT-ToMyPortfolio/static/js/main.3def29e5.js.map",
     "787.a2cb61a6.chunk.js.map": "/REACT-ToMyPortfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.736508cf.css",
-    "static/js/main.76f1325d.js"
+    "static/js/main.3def29e5.js"
   ]
 }
