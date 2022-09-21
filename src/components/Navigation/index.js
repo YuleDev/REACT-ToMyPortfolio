@@ -1,5 +1,5 @@
 import React from 'react';
-import pdfResume from '../../assets/KoleErvineResume.pdf';
+import pdfResume from '../../assets/Kole_Ervine_Resume_2022.pdf';
 
 function Navigation(props) {
 
